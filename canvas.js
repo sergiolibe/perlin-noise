@@ -48,4 +48,4 @@ function animate(time) {
   requestAnimationFrame(animate);
 }
 
-animate();
+//animate();
