@@ -21,7 +21,7 @@ function animate(time) {
   ctx.beginPath();
   ctx.moveTo(xo, yo);
   //xf = xo + r * Math.cos(x);
-  yf = yo + r * Math.sin(x);
+  //yf = yo + r * Math.sin(x);
   ctx.lineTo(xf, yf);
   ctx.lineTo(xf + r2 * Math.cos(-x * 2), yf + r2 * Math.sin(-x * 2));
   // ctx.fillRect(xf - 5, yf - 5, 10, 10);
